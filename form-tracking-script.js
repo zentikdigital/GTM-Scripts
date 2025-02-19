@@ -1,3 +1,20 @@
+/**
+ * 📌 Form Tracking Script para Google Tag Manager (GTM)
+ * 
+ * Este script detecta usuarios que empiezan a rellenar un formulario pero no lo completan.
+ * 
+ * 📖 Documentación y uso: 
+ * https://github.com/zentikdigital/GTM-Scripts#readme
+ * 
+ * 📥 Descarga el código en: 
+ * https://github.com/zentikdigital/GTM-Scripts/blob/main/form-tracking-script.js
+ * 
+ * 🚀 Funcionalidades:
+ * ✅ Detección de abandono de formularios.
+ * ✅ Identificación del último campo donde se detuvo el usuario.
+ * ✅ Envío de eventos a Google Analytics 4, Google Ads o Meta Ads.
+ */
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     let form = document.querySelector("form"); // Cambia esto si el formulario tiene un selector específico
